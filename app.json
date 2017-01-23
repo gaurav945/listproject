@@ -1,0 +1,8 @@
+{
+  "name": "Make your lists online",
+  "description": "Trying to deploy my stuff on Heroku",
+  "image": "heroku/python",
+  "repository": "https://github.com/gaurav945/listproject",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}
