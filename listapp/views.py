@@ -10,7 +10,7 @@ def main_page(request):
 	context = {}
 	for i in range(0, len(ListItem.objects.all())):
 		context[ListItem.objects.all()[i].id] = ListItem.objects.all()[i].content
-	return render_to_response('listapp/main_page.html', {'context' : context})
+	return render(request, 'listapp/main_page.html', {'context' : context})
 
 @ensure_csrf_cookie
 def add_item_to_list(request):
