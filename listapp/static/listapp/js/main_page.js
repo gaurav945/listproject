@@ -69,10 +69,10 @@ $(document).ready(function () {
 					console.log(response);
 					// temp_id = response;
 					$('ul').append(
-						'<div class="col-lg-10" style="padding-left : 0px"><li style="word-wrap: break-word"><h3>' + 
+						'<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="padding-left : 0px"><li style="word-wrap: break-word"><h3>' + 
 						val + 
 						'</h3></li></div>' + 
-						'<div class="col-lg-2"><button type="button" id="' + 
+						'<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><button type="button" id="' + 
 						response +
 						'" class="close" style="margin-top : 21px">delete</button></div>'
 					);
